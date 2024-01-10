@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Berkshire+Swash&family=Black+Han+Sans&family=Black+Ops+One&family=Creepster&family=Rancho&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="sweetalert2.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Funny Quiz</title>
+</head>
+<body>
+    <div class="question">
+        <h1>who  is  the  devil  face?</h1>
+    </div>
+    
+    <div class="video">
+        <video src="./Assets/video.MP4" autoplay muted loop></video>
+    </div>
+    <div class="pics">
+        <img src="./Assets/body.PNG" alt="">
+    </div>
+    <button id="reset" onclick="resetFaces()">Reset</button>
+    
+    <div class="devil">
+        <img class="face1" onclick="face1()" src="./Assets/face1.PNG" alt="">
+        <img class="face2" onclick="face2()" src="./Assets/face2.PNG" alt="">
+        <img class="face3" onclick="face3()" src="./Assets/face3.PNG" alt="">
+        <img class="face4" onclick="face4()" src="./Assets/face4.PNG" alt="">
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/script.js"></script>
+    
+</body>
+</html>
