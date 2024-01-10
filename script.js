@@ -70,10 +70,3 @@ function resetFaces() {
         y: 0
     });
 }
-
-// Swal.fire({
-//     icon: "error",
-//     title: "Wrong Answer",
-//     text: "Better luck next-time",
-//     // footer: '<a href="#">Why do I have this issue?</a>'
-//   });
